@@ -8,7 +8,7 @@
 
 > **An innovative 3D space habitat design platform built for NASA Space Challenge Hackathon 2025**
 
-![Space Habitat Layout Creator](https://img.shields.io/badge/Status-Live%20Demo-brightgreen.svg)
+![Space Habitat Layout Creator](https://nasa-space-challenge-hackathon.vercel.app/)
 
 ## 🌟 Project Overview
 
@@ -212,9 +212,8 @@ src/
 
 ## 🌐 Live Demo
 
-🔗 **[Live Demo](https://your-deployment-url.vercel.app)** - Experience the Space Habitat Layout Creator
+🔗 **[Live Demo](https://nasa-space-challenge-hackathon.vercel.app/)** - Experience the Space Habitat Layout Creator
 
-*Note: Replace with your actual deployment URL after deploying to Vercel/Netlify*
 
 ## 🤝 Contributing
 
@@ -268,7 +267,7 @@ We welcome contributions from the space technology community! Here's how you can
 🔗 **Connect with me:**
 - **LinkedIn**: [Roushan Kumar](https://www.linkedin.com/in/roushan-kumar-40b050207/)
 - **GitHub**: [@Rou45](https://github.com/Rou45)
-- **Email**: roushan.tech@example.com
+- **Email**: kumarroushan7050@gmail.com
 
 ### About the Developer
 Passionate software engineer with expertise in 3D visualization, space technology, and modern web development. Dedicated to advancing human space exploration through innovative technology solutions.
