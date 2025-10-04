@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Space Habitat Layout Creator - NASA Challenge</title>
+    <meta name="description" content="Interactive tool for designing and assessing space habitat layouts for NASA's Artemis and Mars exploration missions" />
+    <meta name="keywords" content="NASA, space habitat, Artemis, Mars, space exploration, habitat design" />
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/space-icon.svg" />
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Theme -->
+    <style>
+      html {
+        color-scheme: dark light;
+      }
+      
+      body {
+        margin: 0;
+        font-family: 'Inter', system-ui, -apple-system, sans-serif;
+        background: linear-gradient(135deg, #0c1445 0%, #1a1a2e 50%, #16213e 100%);
+        overflow-x: hidden;
+      }
+      
+      #root {
+        min-height: 100vh;
+        width: 100%;
+      }
+      
+      /* Loading animation */
+      .loading-spinner {
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        border: 3px solid rgba(255,255,255,.3);
+        border-radius: 50%;
+        border-top-color: #0ea5e9;
+        animation: spin 1s ease-in-out infinite;
+      }
+      
+      @keyframes spin {
+        to { transform: rotate(360deg); }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root">
+      <div style="display: flex; justify-content: center; align-items: center; height: 100vh; flex-direction: column; color: white;">
+        <div class="loading-spinner"></div>
+        <p style="margin-top: 20px; font-size: 16px; opacity: 0.8;">Loading Space Habitat Creator...</p>
+      </div>
+    </div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
