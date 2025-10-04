@@ -8,8 +8,6 @@
 
 > **An innovative 3D space habitat design platform built for NASA Space Challenge Hackathon 2025**
 
-![Space Habitat Layout Creator](https://nasa-space-challenge-hackathon.vercel.app/)
-
 ## 🌟 Project Overview
 
 The **Space Habitat Layout Creator** is an advanced, interactive 3D design platform that enables engineers, scientists, and space enthusiasts to create, visualize, and validate space habitats for various missions including Lunar bases, Mars colonies, and deep space exploration.
